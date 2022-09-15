@@ -1,85 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulier</title>
-</head>
-<body>
-    <form action="results.html" method="GET" enctype="multipart/form-data"> 
-        <div>
-            <label for="name">Naam</label>
-            <input type="text" name="name" id="name" required>
-        </div>
-        <div>
-            <label for="last name">Achter naam</label>
-            <input type="text" name="last name" id="last name" required>
-        </div> <br>
-        Gender
-                <div>
-                    <label for="man">Man</label>
-                    <input type="radio" name="gender" id="man" value="man">
-                </div>
-                <div>
-                    <label for="vrouw">Vrouw</label>
-                    <input type="radio" name="gender" id="vrouw" value="vrouw">
-                </div> <br>
-                <div>
-                    <label for="straat met huisnummer">Straat met huisnummer</label>
-                    <input type="text" name="straat met huisnummer" id="straat met huisnummer">
-                </div>
-                <div>
-                    <label for="postcode">Postcode</label>
-                    <input type="text" name="postcode">
-                </div> 
-                <div>
-                    <label for="land">Land</label>
-                    <input type="text" name="land" id="land">
-                </div> 
-                <div>
-                    <label for="stad">Stad</label>
-                    <input type="text" name="stad" id="stad">
-                </div> <br>
-                <div>
-                    <label for="bsn-nummer">BSN-nummer</label>
-                    <input type="text" name="bsn-nummer" id="bsn-nummer" pattern="[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]-[0-9]" placeholder="voeg 9 cijfers in">
-                </div> <br>
-                <div>
-                    <label for="vakantieland">Vakantieland</label>
-                    <select name="vakantieland" id="vakantieland">
-                        <option value="spanje">Spanje</option>
-                        <option value="turkije">Turkije</option>
-                        <option value="italie">Italie</option>
-                        <option value="griekenland">Griekenland</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="aantal reisgenoten">Aantal reisgenoten</label>
-                    <input type="number" name="number" id="number" min="1" max="4">
-                </div>
-                <div>
-                    <label for="datum van vetrek">Datum van vetrek</label>
-                    <input type="date" name="date" id="date" min="2022-09-15">
-                </div>
-                <div>
-                    <label for="datum van terugkomst">Datum van terugkomst</label>
-                    <input type="date" name="date" id="date" min="2022-09-15">
-                </div> <br>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-        </div>
-        <div>
-            <label for="telefoon nummer">Telefoon nummer</label>
-            <input type="tel" name="telefoon" id="telefoon">
-        </div>
-        <div>
-            <label>Password</label>
-            <input type="password" name="password" required>
-        </div> 
-        <button type="reset">Reset</button>    
-        <button type="submit">Boek nu!</button>
-    </form>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Opdracht 3</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./img/hacker.png" id="logo" />
+      <ul>
+        <li><a href="#">HTML/CSS</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">PHP</a></li>
+        <li><a href="#">SQL</a></li>
+      </ul>
+    </nav>
+    <ul>
+      <li>zeep</li>
+      <li>kaars</li>
+      <li>bloem</li>
+      <li>roos</li>
+      <li>geur</li>
+    </ul> 
+
+    
+    <hr/>
+    <ol>
+      <li>bord</li>
+      <li>potlood</li>
+      <li>gum</li>
+      <li>pen</li>
+      <li>krijt</li>
+    </ol>
+  </body>
 </html>
