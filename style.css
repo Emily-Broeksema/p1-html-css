@@ -1,15 +1,127 @@
-#GFG {
-  text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-p {
-    border: 2px solid rgb(150, 200, 67);
-    border-radius: 5px;
-    border-left: 10px;
-    border-style: outset;
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
 
-  header {
-    background-image: url("./img/video-games.jpeg");
-    background-color: #090088;
-   }
+body {
+    background-image: url("img/hacker.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    
+}
+
+body {
+  font-family: 'Goldman';font-size: 22px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+.tekst
+
+{
+font-size: 24px;  
+font-family: Verdana;
+list-style-type: none;
+
+}
+
+
+.tekst2
+
+{
+font-size: 24px;  
+font-family: Verdana;
+
+}
+
+ol {
+  padding: 20px;
+}
+
+ul {
+  padding: 20px;
+}
+
+ol li {
+  padding: 20px;
+  color: aqua;
+  margin-left:5px ;
+}
+
+ul li {
+  padding: 10px;
+  color: aqua;
+}
+.p1 {
+  font-weight: bold;
+  font-family: "goldman", Times, serif;
+  color: #00a8c7;
+}
+
+.p2 {
+  font-weight: bold;
+  font-family:"goldman", sans-serif;
+  color: #00a8c7;
+}
+
+.p3 {
+  font-weight: bold;
+  font-family: "goldman", "Courier New", monospace;
+  color: #00a8c7;
+}
+
+.p4 {
+  font-weight: bold;
+  font-family: "goldman", "Courier New", monospace;
+  color: #00a8c7;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color:#00a8c7;
+  color: white;
+  text-align: center;
+}
