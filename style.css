@@ -1,127 +1,197 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-}
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  body {
+      background-image: url("img/hacker.png");
+      background-repeat: no-repeat, repeat;
+      background-color: #2b2a2a;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+  }
+  
+  body {
+    font-family: 'Goldman';font-size: 22px;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  
   }
 
-body {
-    background-image: url("img/hacker.png");
-    background-repeat: no-repeat, repeat;
-    background-color: #000000;
-    background-position: center;
-    background-size: cover;
-    position: relative;
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+  }
 
+  #img1 {
+    float: left;
+  }
+
+  #img2 {
+    float: right;
+  }
+
+  #img3 {
+    float: left;
+  }
+
+  #img4 {
+    float: right;
+  }
+
+  .p1 {
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
     
-}
+  }
 
-body {
-  font-family: 'Goldman';font-size: 22px;
-}
+  .p2 {
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+  }
 
-nav {
-  display: flex;
-  width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  background: #00a8c7;
-  justify-content: space-between;
-}
+  .p3 {
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+  }
 
-nav ul {
-  display: flex;
-  align-items: center;
+  .p4 {
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+  }
+
+  h1 {
+    color: aquamarine;
+    margin-left: 400px;
+    margin-top: 100px;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  .tekst
+  
+  {
+  font-size: 24px;  
+  font-family: Verdana;
   list-style-type: none;
-}
-nav li {
-  font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-}
-nav img {
-  width: 5vw;
-}
-.tekst
-
-{
-font-size: 24px;  
-font-family: Verdana;
-list-style-type: none;
-
-}
-
-
-.tekst2
-
-{
-font-size: 24px;  
-font-family: Verdana;
-
-}
-
-ol {
-  padding: 20px;
-}
-
-ul {
-  padding: 20px;
-}
-
-ol li {
-  padding: 20px;
-  color: aqua;
-  margin-left:5px ;
-}
-
-ul li {
-  padding: 10px;
-  color: aqua;
-}
-.p1 {
-  font-weight: bold;
-  font-family: "goldman", Times, serif;
-  color: #00a8c7;
-}
-
-.p2 {
-  font-weight: bold;
-  font-family:"goldman", sans-serif;
-  color: #00a8c7;
-}
-
-.p3 {
-  font-weight: bold;
-  font-family: "goldman", "Courier New", monospace;
-  color: #00a8c7;
-}
-
-.p4 {
-  font-weight: bold;
-  font-family: "goldman", "Courier New", monospace;
-  color: #00a8c7;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 25px;
-  background-color:#00a8c7;
-  color: white;
-  text-align: center;
-}
+  
+  }
+  
+  
+  .tekst2
+  
+  {
+  font-size: 24px;  
+  font-family: Verdana;
+  
+  }
+  
+  
+  .p1 {
+    font-weight: bold;
+    font-family: "goldman", Times, serif;
+    color: #00a8c7;
+  }
+  
+  .p2 {
+    font-weight: bold;
+    font-family:"goldman", sans-serif;
+    color: #00a8c7;
+  }
+  
+  .p3 {
+    font-weight: bold;
+    font-family: "goldman", "Courier New", monospace;
+    color: #00a8c7;
+  }
+  
+  .p4 {
+    float: left;
+    font-weight: bold;
+    font-family: "goldman", "Courier New", monospace;
+    color: #00a8c7;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color:#00a8c7;
+    color: white;
+    text-align: center;
+  }
