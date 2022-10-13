@@ -1,38 +1,155 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-  
-.topnav {
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    
+
+nav {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
-  
-.topnav a {
-    float: left;
-    color: #1f03a8;
+
+
+
+
+
+
+header {
+    background-color: red;
+    height: 68px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-    
 }
-  
+
+@media screen and (max-width: 900px) {
+    header {
+      background-color: rgb(229, 101, 137);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    header {
+      background-color: rgb(121, 100, 238);
+      text-align: center;
+      left: 50%;
+    }
+  }
 
 
 
-.topnav-left {
-    float: left;
-    margin-left: 50px;
+
+
+.logo {
+    background-color: red;
+    height: 68px;
+    text-align: center;
+    color: white;
 }
 
-.topnav-center {
-   margin-left: 850px;
+@media screen and (max-width: 900px) {
+    .logo {
+      background-color: rgb(229, 101, 137);
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .logo {
+      background-color: rgb(121, 100, 238);
+      text-align: center;
+    }
+    nav > div {
+        height: 20px;
+        width: 20px;
+        background-color: white;
+    }
+  }
+
+
+
+
+
+  .h {
+    margin-left: 75px;
+  }
+
+  p {
+    margin-left: 75px;
+  }
+
+
+
+
+
+
+.s1 {
+    background-color: yellow;
+    height: 215px;
 }
-  
-.topnav-right {
-    float: right;
-    
+
+@media screen and (max-width: 900px) {
+    .s1 {
+      background-color: rgb(231, 63, 110);
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .s1 {
+      background-color: rgb(144, 245, 236);
+      text-align: center;
+      color: white;
+    }
+  }
+
+
+
+
+
+.s2 {
+    background-color: orange;
+    height: 215px;
 }
+
+@media screen and (max-width: 900px) {
+    .s2 {
+      background-color: rgb(111, 90, 219);
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .s2 {
+      background-color: rgb(216, 126, 232);
+      text-align: center;
+      color: white;
+    }
+  }
+
+
+
+
+
+.s3 {
+    background-color: green;
+    height: 215px;
+}
+
+@media screen and (max-width: 900px) {
+    .s3 {
+      background-color: rgb(57, 63, 211);
+      align-content: center;
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .s3 {
+      background-color: rgb(63, 55, 115);
+      text-align: center;
+      color: white;
+    }
+  }
